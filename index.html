@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark nav_style">
+            <div class="container">
+                <a href="test.html" class="navbar-brand ">
+                    <img src="assets/images/logo.svg" alt="Logo" title="D" class="logo_img">
+                </a>
+                <!-- Mobile menu button -->
+                <button class="navbar-toggler mobile_menu" type="button" aria-controls="navbarResponsive"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <!--Menu de Navigation-->
+                <div class="wrapper_nav">
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#works">Works</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link contact-button-nav" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <main class="main_container">
+        <section class="section_home">
+            <div class="container">
+                <h1 class="home_title">We create minimalistic design
+                    <strong class="title_strong">We’re D.Studio</strong>
+                </h1>
+            </div>
+        </section>
+        <!-- Banner Slider -->
+        <section>
+            <div class="banner_slider">
+                <div class="banner_slider_item">
+                    <figure class="banner_slider_img">
+                        <img src="assets/images/slider1.jpg" alt="slider1">
+                    </figure>
+                    <figure class="banner_slider_img">
+                        <img src="assets/images/slider2.jpg" alt="slider2">
+                    </figure>
+                    <figure class="banner_slider_img">
+                        <img src="assets/images/slider3.jpg" alt="slider3">
+                    </figure>
+                    <figure class="banner_slider_img">
+                        <img src="assets/images/slider4.jpg" alt="slider4">
+                    </figure>
+
+                </div>
+            </div>
+        </section>
+        <section class="section_about" id="about">
+            <div class="container">
+                <div class="row top_about">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 top_about_item">
+                        <h2 class="heading">About D.Studio</h2>
+                        <span class="top_about_item_2">We create awesome digital products</span>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 top_about_item">
+                        <p class="top_about_item_para">Phasellus non faucibus purus, a venenatis diam. In faucibus orci
+                            mauris,
+                            porttitor egestas
+                            diam elementum non. Vestibulum non metus tempus, sagittis libero sed, euismod purus. Cras
+                            dolor nulla, hendrerit vitae libero eu, finibus ultricies dolor. Vestibulum non metus
+                            tempus, sagittis libero sed, euismod purus. Cras dolor vitae libero eu, finibus ultricies
+                            dolor.
+                        </p>
+                        <p class="top_about_item_para">Curabitur quis tortor sit amet ligula lobortis auctor. Class
+                            aptent taciti sociosqu ad litora
+                            torquent per conubia nostra, per inceptos himenaeos. Integer ut turpis eget urna egestas
+                            maximus.
+                        </p>
+                    </div>
+                </div>
+                <div class="row bottom_about">
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 bottom_about_item">
+                        <h3 class="list_item">Strategy</h3>
+                        <ul>
+                            <li>UX audit</li>
+                            <li>Product strategy</li>
+                            <li>Stakeholder workshops</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 bottom_about_item">
+                        <h3 class="list_item">Design</h3>
+                        <ul>
+                            <li>UI/UX design</li>
+                            <li>Prototyping</li>
+                            <li>Website and mobile apps</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 bottom_about_item">
+                        <h3 class="list_item">Build</h3>
+                        <ul>
+                            <li>HTML/CSS/JS</li>
+                            <li>React/Vue</li>
+                            <li>Native apps</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 bottom_about_item">
+                        <h3 class="list_item">Improve</h3>
+                        <ul>
+                            <li>Usability testing</li>
+                            <li>User session replays</li>
+                            <li>Analytics</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_work" id="works">
+            <div class="container">
+                <div class="section_work_top">
+                    <div class="work_slider">
+                        <div class="work_slider_item">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                    <section>
+                                        <h3 class="heading">Firedesign</h3>
+                                        <span class="brands">Branding, Identity, Web Design</span>
+                                        <p>Phasellus non faucibus purus, a venenatis diam. In faucibus orci mauris,
+                                            porttitor egestas diam elementum non curabitur quis tortor sit amet ligula
+                                            lobortis auctor.
+                                        </p>
+                                        <a href="casestudy.html" class="button_more">Read case study <i
+                                                class="ri-arrow-right-line"></i>
+                                        </a>
+                                    </section>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                    <figure><img src="assets/images/Casestudy-1.jpg"></figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="work_slider_loop">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                    <section>
+                                        <h3 class="heading">Sparksfilms</h3>
+                                        <span class="brands">Branding, Identity, Web Design</span>
+                                        <p>Phasellus non faucibus purus, a venenatis diam. In faucibus orci mauris,
+                                            porttitor egestas diam elementum non curabitur quis tortor sit amet ligula
+                                            lobortis auctor.</p>
+                                        <a href="casestudy.html" class="button_more">Read case study <i
+                                                class="ri-arrow-right-line"></i>
+                                        </a>
+                                    </section>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                    <figure><img src="assets/images/Casestudy-2.jpg"></figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo_list_section">
+                    <div class="logo_list_slider">
+                        <figure><img src="assets/images/client-logo1.png"></figure>
+                        <figure><img src="assets/images/client-logo2.png"></figure>
+                        <figure><img src="assets/images/client-logo3.png"></figure>
+                        <figure><img src="assets/images/client-logo4.png"></figure>
+                        <figure><img src="assets/images/client-logo5.png"></figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section_blog" id="blog">
+            <div class="container">
+                <div class="blog_item">
+                    <div>
+                        <h3 class="heading">Blog articles</h3>
+                        <span class="brands">Latest posts from our blog</span>
+                    </div>
+                    <a href="blog.html" class="button_more">View all articles <i class="ri-arrow-right-line"></i></a>
+                </div>
+                <div class="blog_list">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 blog_list_1">
+                            <div class="blog_list_1_item">
+                                <figure>
+                                    <a href="blog-detsil.html"><img src="assets/images/blog-thumb1.jpg"></a>
+                                </figure>
+                                <section>
+                                    <h2><a href="blog-detsil.html">How To Write Mobile Application Requirements That
+                                            Work
+                                        </a>
+                                    </h2>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 blog_list_1">
+                            <div class="blog_list_1_item">
+                                <figure>
+                                    <a href="blog-detsil.html"><img src="assets/images/blog-thumb2.jpg"></a>
+                                </figure>
+                                <section>
+                                    <h2><a href="blog-detsil.html">How To Write Mobile Application Requirements That
+                                            Work</a></h2>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 blog_list_1">
+                            <div class="blog_list_1_item">
+                                <figure>
+                                    <a href="blog-detsil.html"><img src="assets/images/blog-thumb3.jpg"></a>
+                                </figure>
+                                <section>
+                                    <h2><a href="blog-detsil.html">How To Write Mobile Application Requirements That
+                                            Work</a></h2>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id="contact">
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <section>
+                            <h4 class="footer_item_1">Let’s Talk.</h4>
+                            <p class="footer_item_2">Have a project or question? Send me a message.</p>
+                            <a href="mailto:hey@dstudio .com" class="ds-button footer_item_3" >hey@dstudio.com</a>
+                        </section>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <ul class="social_item">
+                            <li><a href="#" target="_blank"><i class="ri-dribbble-line"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="ri-instagram-line"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="ri-twitter-line"></i></a></li>
+                        </ul>
+                        <span class="copyright">© 2021 All rights reserved. <a href="https://designstub.com/"
+                                target="_blank">Free minimal bootstrap template by Designstub</a>.</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
