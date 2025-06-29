@@ -78,7 +78,7 @@ jQuery(document).ready(function($) {
 	});
 
 
-	$('banner_slider_item').slick({
+	$('.banner_slider_item').slick({
 		  autoplay: true,
 		  autoplay: true,
 	      autoplaySpeed: 0,
